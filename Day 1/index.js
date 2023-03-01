@@ -6,15 +6,15 @@
 // root.appendChild(child);
 
 
-                              // type ||    props     ...children can be aarray  
-                              const heading1=React.createElement('h1',   {id:"heading"},      "Jay Mata di");
-                              const heading2=React.createElement('h2',   {id:"heading"},      "Jay Shree ram");
+    // type ||    props     ...children can be aarray  
+    const heading1=React.createElement('h1',   {id:"heading"},      "Jay Mata di");
+    const heading2=React.createElement('h2',   {id:"heading"},      "Jay Shree ram");
                       
                       
-                              //we can render more than 2 element because children can be given in the form of array
+    //we can render more than 2 element because children can be given in the form of array
                               
-                              const parent=React.createElement('div',{className:"parent"},[heading1,heading2]);
+    const parent=React.createElement('div',{className:"parent"},[heading1,heading2]);
                       
-                              const root=ReactDOM.createRoot(document.getElementById("root"));
-                              root.render(parent);
+    const root=ReactDOM.createRoot(document.getElementById("root"));
+    root.render(parent);
                              
